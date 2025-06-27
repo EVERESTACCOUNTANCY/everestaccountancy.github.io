@@ -1,53 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="ne">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Everest Accountancy Practice Ltd</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f7fa;
+      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
+      background: #f0f4f8;
+      color: #333;
     }
     header {
       background-color: #003366;
       color: white;
-      padding: 30px 20px;
+      padding: 20px;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2em;
+    nav {
+      background-color: #005599;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     main {
-      max-width: 900px;
-      margin: auto;
+      max-width: 800px;
+      margin: 30px auto;
       background: white;
-      padding: 30px;
+      padding: 20px 30px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    section {
-      margin-bottom: 30px;
+      border-radius: 6px;
     }
     h2 {
       color: #003366;
+      margin-top: 0;
     }
     ul {
-      padding-left: 20px;
+      list-style: inside disc;
+      padding-left: 0;
     }
-    a {
-      color: #0066cc;
-      text-decoration: none;
+    li {
+      margin: 8px 0;
+      font-size: 1.1rem;
     }
     footer {
-      background: #003366;
+      background-color: #003366;
       color: white;
       text-align: center;
       padding: 15px 10px;
       margin-top: 40px;
+      font-size: 0.9rem;
+    }
+    section {
+      margin-bottom: 40px;
     }
   </style>
 </head>
@@ -55,24 +68,41 @@
 
   <header>
     <h1>Everest Accountancy Practice Ltd</h1>
-    <p>Professional Accounting Services with Personal Touch</p>
   </header>
 
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT US</a>
+    <a href="#services">SERVICES</a>
+    <a href="#contact">CONTACT US</a>
+  </nav>
+
   <main>
-    <section>
-      <h2>हामी प्रदान गर्ने सेवाहरू</h2>
+    <section id="home">
+      <h2>Welcome to Everest Accountancy</h2>
+      <p>We are your trusted financial partner providing high-quality and reliable accountancy services in the UK.</p>
+    </section>
+
+    <section id="about">
+      <h2>ABOUT US</h2>
+      <p>Everest Accountancy Practice Ltd is a trusted UK-based firm offering bookkeeping, company accounts, VAT, payroll, and personal tax return services. We are committed to helping small and medium-sized businesses thrive financially with expert support.</p>
+    </section>
+
+    <section id="services">
+      <h2>SERVICES</h2>
       <ul>
-        <li>बुककिपिङ (Bookkeeping)</li>
-        <li>कम्पनी खाता व्यवस्थापन (Company Accounts)</li>
-        <li>VAT र Payroll सेवा</li>
-        <li>व्यक्तिगत कर फिर्ता (Personal Tax Returns)</li>
+        <li>📘 Bookkeeping</li>
+        <li>📄 Company Accounts Preparation</li>
+        <li>📊 VAT Returns & Payroll Management</li>
+        <li>🧾 Personal Self-Assessment Tax Returns</li>
+        <li>💼 Business Consultation & Advice</li>
       </ul>
     </section>
 
-    <section>
-      <h2>सम्पर्क गर्नुहोस्</h2>
-      <p>📧 इमेल: <a href="mailto:info@everestapltd.com">info@everestapltd.com</a></p>
-      <p>🌐 वेबसाइट: <a href="https://everestapltd.com">everestapltd.com</a></p>
+    <section id="contact">
+      <h2>CONTACT US</h2>
+      <p>📧 Email: <a href="mailto:info@everestapltd.com">info@everestapltd.com</a></p>
+      <p>🌐 Website: <a href="https://everestapltd.com" target="_blank">everestapltd.com</a></p>
     </section>
   </main>
 
